@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: etherpad-config
+data:
+  TITLE: "ISPRASEtherpad"
+  SKIN_NAME: "colibris"
+  DEFAULT_PAD_TEXT: "Welcome to ISPRAS"
+  TRUST_PROXY: "true"
+  
